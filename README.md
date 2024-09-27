@@ -20,6 +20,8 @@ ESP32: Dispositivo principal de rastreamento que escaneia redes Wi-Fi e calcula 
 
 **Aplicativo Android (Wordpress + API Google Maps)**: Apresenta os dados de localização em tempo real por meio de um mapa, permitindo aos operadores visualizar e monitorar os veículos de forma fácil e rápida.
 
+**Antena modulo Wireless para arduino**: a antena serve para aumenter o sinal do esp32, consequentemente ajudando na triangulação
+
 # Funcionamento da Solução
 
 **Rastreamento com ESP32:**
@@ -54,7 +56,7 @@ A interface do aplicativo utiliza a API do Google Maps para mostrar a localizaç
 A solução de entrega de dados de localização em tempo real dos veículos de transporte, exibida diretamente no aplicativo Android. Abaixo, segue um exemplo da interface do aplicativo, com um print do mapa mostrando a localização dos veículos na fábrica:
 
 **Melhoria da Eficiência Operacional**
-Com a solução de ruptura, a John Deere obteve maior controle sobre a movimentação de veículos internos, resultando em:
+Com a solução de ruptura, a John Deere obterá maior controle sobre a movimentação de veículos internos, resultando em:
 
 **Redução do tempo de inatividade** : Os operadores podem visualizar onde cada veículo está localizado e otimizar suas rotas.
 
