@@ -1,5 +1,5 @@
 # Projeto-JDUBER-johndeer
-# Introduçao
+# Introdução
 A empresa John Deere identificou um desafio operacional em suas instalações de fabricação: a gestão e controle eficientes de seus veículos de transporte internos. Atualmente, esses veículos são operados com a falta de um sistema de rastreamento eficaz.
  A proposta é desenvolver uma solução inovadora que permita o rastreamento em tempo real desses veículos. Isso não só melhorará a eficiência operacional, mas também fornecerá insights valiosos sobre a utilização dos veículos.
 Além disso, a empresa deseja um aplicativo com uma interface de usuário intuitiva, semelhante à do Uber, para facilitar a interação com o sistema de rastreamento. Este aplicativo permitirá aos usuários localizar facilmente os veículos e monitorar seu status em tempo real
@@ -61,4 +61,18 @@ Com a solução de ruptura, a John Deere obterá maior controle sobre a moviment
 **Redução do tempo de inatividade** : Os operadores podem visualizar onde cada veículo está localizado e otimizar suas rotas.
 
 **Melhor gerenciamento da frota** : O sistema oferece insights sobre os padrões de uso dos veículos, identificando possíveis gargalos ou períodos ociosos.
+
+# Imagens e videos do projeto
+**Tela inicial**
+![14fbbbe0-4c14-42b0-8ab9-3249acc7e401](https://github.com/user-attachments/assets/68e4c44b-91ba-4abd-999d-05c4ccfb18c8)
+**Tela do sistema de localização**
+![caacaa88-45e3-46f6-a47e-0093eb697a98](https://github.com/user-attachments/assets/7a50f402-d4ac-4195-a25b-4745adeb8757)
+
+**Teste do ESP32**
+
+https://github.com/user-attachments/assets/62a59ec3-b3a7-46cc-85d6-49feeda2111e
+
+**Funcionamento do site**
+
+https://github.com/user-attachments/assets/d59208aa-670c-4aa2-b0fd-556f3bd669a5
 
