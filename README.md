@@ -1,4 +1,4 @@
-# projeto-JDUBER-johndeer
+# Projeto-JDUBER-johndeer
 # Introduçao
 A empresa John Deere identificou um desafio operacional em suas instalações de fabricação: a gestão e controle eficientes de seus veículos de transporte internos. Atualmente, esses veículos são operados com a falta de um sistema de rastreamento eficaz.
  A proposta é desenvolver uma solução inovadora que permita o rastreamento em tempo real desses veículos. Isso não só melhorará a eficiência operacional, mas também fornecerá insights valiosos sobre a utilização dos veículos.
