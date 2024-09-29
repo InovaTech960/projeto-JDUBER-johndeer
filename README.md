@@ -52,7 +52,7 @@ A interface do aplicativo utiliza a API do Google Maps para mostrar a localizaç
 
 # Resultados
 **Dados de Localização em Tempo Real**
-A solução de entrega de dados de localização em tempo real dos veículos de transporte, exibida diretamente no site em worldpress. Abaixo, segue um exemplo da interface do aplicativo, com um print do mapa mostrando a localização dos veículos na fábrica:
+A solução de entrega de dados de localização em tempo real dos veículos de transporte, exibida diretamente no site em worldpress. Abaixo, segue um exemplo da interface do site, com um print do mapa mostrando a localização dos veículos na fábrica:
 ![14fbbbe0-4c14-42b0-8ab9-3249acc7e401](https://github.com/user-attachments/assets/f201432a-79e0-4aa6-bc48-6214c06fa06b)
 
 **Melhoria da Eficiência Operacional**
