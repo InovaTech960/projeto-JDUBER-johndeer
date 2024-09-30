@@ -68,7 +68,7 @@ Com a solução de ruptura, a John Deere obterá maior controle sobre a moviment
 **Tela do sistema de localização**
 ![caacaa88-45e3-46f6-a47e-0093eb697a98](https://github.com/user-attachments/assets/7a50f402-d4ac-4195-a25b-4745adeb8757)
 
-**Teste do ESP32**
+**Teste do Prototipo do Hardware**
 
 https://github.com/user-attachments/assets/62a59ec3-b3a7-46cc-85d6-49feeda2111e
 
