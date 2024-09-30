@@ -72,11 +72,11 @@ Com a solução de ruptura, a John Deere obterá maior controle sobre a moviment
 # Imagens e videos do projeto
 **Tela inicial**
 
-![14fbbbe0-4c14-42b0-8ab9-3249acc7e401](https://github.com/user-attachments/assets/68e4c44b-91ba-4abd-999d-05c4ccfb18c8)
+![caacaa88-45e3-46f6-a47e-0093eb697a98](https://github.com/user-attachments/assets/7a50f402-d4ac-4195-a25b-4745adeb8757)
 
 **Tela do sistema de localização**
 
-![caacaa88-45e3-46f6-a47e-0093eb697a98](https://github.com/user-attachments/assets/7a50f402-d4ac-4195-a25b-4745adeb8757)
+![14fbbbe0-4c14-42b0-8ab9-3249acc7e401](https://github.com/user-attachments/assets/68e4c44b-91ba-4abd-999d-05c4ccfb18c8)
 
 **Tela de solicitaçao**
 
