@@ -5,7 +5,12 @@ A empresa John Deere identificou um desafio operacional em suas instalações de
 Além disso, a empresa deseja um aplicativo com uma interface de usuário intuitiva, semelhante à do Uber, para facilitar a interação com o sistema de rastreamento. Este aplicativo permitirá aos usuários localizar facilmente os veículos e monitorar seu status em tempo real
 
 O objetivo é desenvolver uma solução integrada de software e hardware capaz de monitorar em tempo real a localização dos carrinhos de transporte de peças ao longo da linha de produção da John Deere. Vamos utilizar o ESP32 para escanear redes Wi-Fi e calcular a posição estimada com base na intensidade do sinal. Em seguida, configuraremos o ESP32 para enviar os dados para um broker MQTT, como o Mosquitto, que os encaminhará para o servidor Apache, Desenvolveremos um site em worldpress para exibir os dados de localização usando a API do Google Maps. O site fará requisições ao servidor para obter dados atualizados via broker MQTT.
+
 # Desenvolvimento
+Desenvolvemos o código responsável pela localização dos veículos, que utiliza a triangulação de sinais Wi-Fi emitidos pelos roteadores da fábrica. Esse código é executado por um microcontrolador ESP32.
+
+Também criamos um protótipo do hardware, composto pelo ESP32 e módulos NRF24L01, que funcionam como antenas omnidirecionais para melhorar a precisão da leitura dos sinais.
+Em termos de software, desenvolvemos um site em WordPress para exibir a localização dos veículos.
 
 **Arquitetura da Solução**
 
@@ -21,7 +26,7 @@ ESP32: Dispositivo principal de rastreamento que escaneia redes Wi-Fi e calcula 
 
 **site (Wordpress + API Google Maps)**: Apresenta os dados de localização em tempo real por meio de um mapa, permitindo aos operadores visualizar e monitorar os veículos de forma fácil e rápida.
 
-**Antena modulo Wireless para arduino**: a antena serve para aumenter o sinal do esp32, consequentemente ajudando na triangulação
+**Antena modulo Wireless para arduino**: a antena serve para aumenter o sinal do ESP32, consequentemente ajudando na triangulação
 
 # Funcionamento da Solução
 
@@ -51,7 +56,9 @@ A interface do aplicativo utiliza a API do Google Maps para mostrar a localizaç
 **API Google Maps:** Utilizada para exibir a localização dos veículos no site.
 
 # Resultados
+
 **Dados de Localização em Tempo Real**
+
 A solução de entrega de dados de localização em tempo real dos veículos de transporte, exibida diretamente no site em worldpress. Abaixo, segue um exemplo da interface do site, com um print do mapa mostrando a localização dos veículos na fábrica:
 ![14fbbbe0-4c14-42b0-8ab9-3249acc7e401](https://github.com/user-attachments/assets/f201432a-79e0-4aa6-bc48-6214c06fa06b)
 
