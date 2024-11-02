@@ -102,6 +102,6 @@ https://github.com/user-attachments/assets/d59208aa-670c-4aa2-b0fd-556f3bd669a5
 **Teste de Estabilidade de Sinal**
 **Definição da Ferramenta de Teste:** Avaliar a consistência do sinal Wi-Fi captado pelo ESP32 em um local fixo, verificando se o RSSI permanece estável ao longo do tempo. Este teste identifica se há flutuações de sinal que possam afetar a precisão da triangulação de posição. O ESP32 será posicionado em um local fixo e irá monitorar o RSSI dos APs conhecidos. A ideia é observar as leituras ao longo do tempo para identificar possíveis instabilidades.
 **Evidências de Testes:**
-
+https://github.com/InovaTech960/projeto-JDUBER-johndeer/blob/28078bddf0d11fa4f1bec06322a46ada7f846770/assets/teste%20escalabilidade%20do%20sinal.PNG
 **Discussão dos Resultados:** O resultado do teste foi consideravelmente satisfatório, pois, mesmo apresentando algumas variações nos valores individualmente, são variações que não interferem completamente na triangulação dos sinais.
 **Soluções Futuras:** As possíveis soluções seriam melhorar a captação do sinal de Wifi, acrescentando uma antena no circuito capaz de melhorar a leitura dos sinais, além de que, utilizando os dados dos RSSI conseguidos pelos testes, poderiam ser usados para criar uma margem de erro.
