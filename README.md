@@ -90,3 +90,18 @@ https://github.com/user-attachments/assets/62a59ec3-b3a7-46cc-85d6-49feeda2111e
 
 https://github.com/user-attachments/assets/d59208aa-670c-4aa2-b0fd-556f3bd669a5
 
+
+# TESTES DE DESEMPENHO
+**Teste de Tempo de Resposta**
+**Definição da Ferramenta de Teste:** Medir o tempo necessário para que o ESP32 conclua uma leitura do sinal RSSI dos APs (Access Points) e realize o cálculo de triangulação. Este teste é essencial para avaliar a capacidade do sistema em fornecer atualizações de posição em tempo real. O ESP32 fará a leitura do RSSI dos APs e processará a triangulação em intervalos regulares, sendo registrado o tempo necessário para completar cada ciclo de leitura e cálculo.
+**Evidências de Testes:** 
+
+**Discussão dos Resultados:** A princípio o teste foi satisfatório, apresentando um tempo de resposta baixo, o qual não irá interferir diretamente nos resultados da localização.
+**Soluções Futuras:** Para mitigar esse problema, podemos refatorar todo o código do projeto, retirando partes desnecessárias e melhorando as utilizadas, para que o código diminua e, consequentemente, melhore o tempo de resposta da leitura.
+
+**Teste de Estabilidade de Sinal**
+**Definição da Ferramenta de Teste:** Avaliar a consistência do sinal Wi-Fi captado pelo ESP32 em um local fixo, verificando se o RSSI permanece estável ao longo do tempo. Este teste identifica se há flutuações de sinal que possam afetar a precisão da triangulação de posição. O ESP32 será posicionado em um local fixo e irá monitorar o RSSI dos APs conhecidos. A ideia é observar as leituras ao longo do tempo para identificar possíveis instabilidades.
+**Evidências de Testes:**
+
+**Discussão dos Resultados:** O resultado do teste foi consideravelmente satisfatório, pois, mesmo apresentando algumas variações nos valores individualmente, são variações que não interferem completamente na triangulação dos sinais.
+**Soluções Futuras:** As possíveis soluções seriam melhorar a captação do sinal de Wifi, acrescentando uma antena no circuito capaz de melhorar a leitura dos sinais, além de que, utilizando os dados dos RSSI conseguidos pelos testes, poderiam ser usados para criar uma margem de erro.
